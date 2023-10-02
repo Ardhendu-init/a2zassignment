@@ -26,10 +26,12 @@ function findLongestWordWithMostVowels(sentence) {
 }
 
 // Example usage:
-const sentence =
-  "Smart people learn from everything and everyone, average people from their experience, stupid people already, have all the answers";
-// const sentence = Smart people learn from everything and everyone, average people from their      experience, stupid people already, have all the answers
-//const sentence = Smart people learn from everything and everyon12e, average people from their experience, stupid people already, have all the answers
-// const sentence = You luv cat
+// const sentence =
+//   "Smart people learn from everything and everyone, average people from their experience, stupid people already, have all the answers";
+// const sentence =
+//   "Smart people learn from everything and everyone, average people from their      experience, stupid people already, have all the answers";
+// const sentence =
+//   "Smart people learn from everything and everyon12e, average people from their experience, stupid people already, have all the answers";
+const sentence = "You luv cat";
 const longestWord = findLongestWordWithMostVowels(sentence);
 console.log("Longest word with most vowels:", longestWord);
